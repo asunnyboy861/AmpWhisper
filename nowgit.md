@@ -15,10 +15,10 @@
 
 | Page | URL | Status |
 |------|-----|--------|
-| Landing Page | https://asunnyboy861.github.io/AmpWhisper/ | ⏳ Pending |
-| Support | https://asunnyboy861.github.io/AmpWhisper/support.html | ⏳ Pending |
-| Privacy Policy | https://asunnyboy861.github.io/AmpWhisper/privacy.html | ⏳ Pending |
-| Terms of Use | https://asunnyboy861.github.io/AmpWhisper/terms.html | ⏳ Pending |
+| Landing Page | https://asunnyboy861.github.io/AmpWhisper/ | ✅ Active |
+| Support | https://asunnyboy861.github.io/AmpWhisper/support.html | ✅ Active |
+| Privacy Policy | https://asunnyboy861.github.io/AmpWhisper/privacy.html | ✅ Active |
+| Terms of Use | https://asunnyboy861.github.io/AmpWhisper/terms.html | ✅ Active |
 
 ## Repository Structure
 
