@@ -7,10 +7,13 @@ struct AmpWhisperApp: App {
 
     init() {
         AppTheme.apply()
-        do {
-            container = try ModelContainer(for: Rig.self, MatchHistory.self)
-        } catch {
-            fatalError("Unable to create ModelContainer: \(error)")
+        if let created = try? ModelContainer(for: Rig.self, MatchHistory.self) {
+            container = created
+        } else {
+            container = try! ModelContainer(
+                for: Rig.self, MatchHistory.self,
+                configurations: ModelConfiguration(isStoredInMemoryOnly: true)
+            )
         }
     }
 

@@ -32,7 +32,9 @@ final class AudioEngine {
         }
         self.engine = newEngine
         self.player = newPlayer
-        let buffer = Self.renderBuffer(knobs: knobs, format: format)
+        guard let buffer = Self.renderBuffer(knobs: knobs, format: format) else {
+            throw AudioError.engineStartFailed("Unable to allocate audio buffer")
+        }
         newPlayer.scheduleBuffer(buffer, at: nil, options: .loops)
         newPlayer.play()
     }
@@ -50,15 +52,15 @@ final class AudioEngine {
         player = nil
     }
 
-    static func renderBuffer(knobs: [String: Int], format: AVAudioFormat) -> AVAudioPCMBuffer {
+    static func renderBuffer(knobs: [String: Int], format: AVAudioFormat) -> AVAudioPCMBuffer? {
         let sampleRate = format.sampleRate
         let duration = 2.0
         let frameCount = AVAudioFrameCount(sampleRate * duration)
-        guard let buffer = AVAudioPCMBuffer(pcmFormat: format, frameCapacity: frameCount) else {
-            fatalError("Unable to allocate audio buffer")
+        guard let buffer = AVAudioPCMBuffer(pcmFormat: format, frameCapacity: frameCount),
+              let channel = buffer.floatChannelData?[0] else {
+            return nil
         }
         buffer.frameLength = frameCount
-        guard let channel = buffer.floatChannelData?[0] else { return buffer }
 
         let gain = Double(knobs["gain"] ?? 5) / 10.0
         let treble = Double(knobs["treble"] ?? 5) / 10.0
