@@ -1,0 +1,181 @@
+{
+  "rules": [
+    {
+      "id": "humbucker-to-singlecoil",
+      "level": 1,
+      "from": "humbucker",
+      "to": "singleCoil",
+      "adjusts": [
+        {"knob": "gain", "delta": -1, "reason": "Single coils are lower output and brighter — trade gain for clarity", "confidence": 0.8},
+        {"knob": "treble", "delta": 1, "reason": "Single coils are lower output and brighter — trade gain for clarity", "confidence": 0.8}
+      ]
+    },
+    {
+      "id": "singlecoil-to-humbucker",
+      "level": 1,
+      "from": "singleCoil",
+      "to": "humbucker",
+      "adjusts": [
+        {"knob": "gain", "delta": 1, "reason": "Humbuckers run hotter and darker — add bite back", "confidence": 0.8},
+        {"knob": "treble", "delta": -1, "reason": "Humbuckers run hotter and darker — add bite back", "confidence": 0.8}
+      ]
+    },
+    {
+      "id": "p90-to-humbucker",
+      "level": 1,
+      "from": "p90",
+      "to": "humbucker",
+      "adjusts": [
+        {"knob": "gain", "delta": 1, "reason": "Humbuckers are hotter and smoother than P90s", "confidence": 0.7}
+      ]
+    },
+    {
+      "id": "p90-to-singlecoil",
+      "level": 1,
+      "from": "p90",
+      "to": "singleCoil",
+      "adjusts": [
+        {"knob": "gain", "delta": -1, "reason": "Single coils sit below P90 output", "confidence": 0.7},
+        {"knob": "treble", "delta": 1, "reason": "Single coils are brighter than P90s", "confidence": 0.65}
+      ]
+    },
+    {
+      "id": "ts-to-transparent",
+      "level": 2,
+      "from": "tubeScreamer",
+      "to": "transparent",
+      "adjusts": [
+        {"knob": "gain", "delta": 1, "reason": "The TS mid-hump is gone — let the amp supply mids", "confidence": 0.75},
+        {"knob": "middle", "delta": -2, "reason": "The TS mid-hump is gone — let the amp supply mids", "confidence": 0.75}
+      ]
+    },
+    {
+      "id": "transparent-to-ts",
+      "level": 2,
+      "from": "transparent",
+      "to": "tubeScreamer",
+      "adjusts": [
+        {"knob": "middle", "delta": 1, "reason": "A TS adds its famous mid-hump — trim amp mids to compensate", "confidence": 0.7}
+      ]
+    },
+    {
+      "id": "transparent-to-fuzz",
+      "level": 2,
+      "from": "transparent",
+      "to": "fuzz",
+      "adjusts": [
+        {"knob": "gain", "delta": -2, "reason": "Fuzz wants a cleaner push", "confidence": 0.6},
+        {"knob": "treble", "delta": 1, "reason": "Fuzz wants a cleaner push", "confidence": 0.6}
+      ]
+    },
+    {
+      "id": "fuzz-to-transparent",
+      "level": 2,
+      "from": "fuzz",
+      "to": "transparent",
+      "adjusts": [
+        {"knob": "gain", "delta": 1, "reason": "Transparent drives add less saturation — make it up at the amp", "confidence": 0.65}
+      ]
+    },
+    {
+      "id": "marshall-to-fender",
+      "level": 4,
+      "from": "marshallMid",
+      "to": "fenderClean",
+      "adjusts": [
+        {"knob": "bass", "delta": 1, "reason": "Fender is deeper and scooped in the mids — push them back", "confidence": 0.7},
+        {"knob": "middle", "delta": -1, "reason": "Fender is deeper and scooped in the mids — push them back", "confidence": 0.7},
+        {"knob": "gain", "delta": 1, "reason": "Fender headroom is higher — drive the amp a bit more", "confidence": 0.65}
+      ]
+    },
+    {
+      "id": "fender-to-marshall",
+      "level": 4,
+      "from": "fenderClean",
+      "to": "marshallMid",
+      "adjusts": [
+        {"knob": "middle", "delta": 1, "reason": "Marshall mids bloom — give them room", "confidence": 0.7},
+        {"knob": "gain", "delta": -1, "reason": "Marshall saturates earlier — pull gain back", "confidence": 0.65}
+      ]
+    },
+    {
+      "id": "vox-to-fender",
+      "level": 4,
+      "from": "voxChime",
+      "to": "fenderClean",
+      "adjusts": [
+        {"knob": "treble", "delta": -1, "reason": "Vox chime is brighter — soften the top end", "confidence": 0.65},
+        {"knob": "gain", "delta": 1, "reason": "Fender headroom is higher — drive the amp a bit more", "confidence": 0.6}
+      ]
+    },
+    {
+      "id": "fender-to-vox",
+      "level": 4,
+      "from": "fenderClean",
+      "to": "voxChime",
+      "adjusts": [
+        {"knob": "treble", "delta": 1, "reason": "Vox chimes brighter on top — lift the treble", "confidence": 0.65},
+        {"knob": "middle", "delta": 1, "reason": "Vox mids are fuller — nudge them up", "confidence": 0.6}
+      ]
+    },
+    {
+      "id": "marshall-to-highgain",
+      "level": 4,
+      "from": "marshallMid",
+      "to": "highGainModern",
+      "adjusts": [
+        {"knob": "gain", "delta": -1, "reason": "Modern high-gain saturates much earlier — pull gain back", "confidence": 0.75},
+        {"knob": "bass", "delta": 1, "reason": "Modern channels run tighter with more low end", "confidence": 0.65}
+      ]
+    },
+    {
+      "id": "highgain-to-marshall",
+      "level": 4,
+      "from": "highGainModern",
+      "to": "marshallMid",
+      "adjusts": [
+        {"knob": "gain", "delta": 1, "reason": "Marshall needs a hotter input to sing", "confidence": 0.7},
+        {"knob": "presence", "delta": 1, "reason": "Marshall tops are rawer — open the presence", "confidence": 0.6}
+      ]
+    },
+    {
+      "id": "closed-to-open",
+      "level": 3,
+      "from": "closed",
+      "to": "open",
+      "adjusts": [
+        {"knob": "presence", "delta": 1, "reason": "Open-back cabs are looser — tighten up top", "confidence": 0.65}
+      ]
+    },
+    {
+      "id": "open-to-closed",
+      "level": 3,
+      "from": "open",
+      "to": "closed",
+      "adjusts": [
+        {"knob": "presence", "delta": -1, "reason": "Closed-back cabs project harder — ease the presence", "confidence": 0.65}
+      ]
+    }
+  ],
+  "sceneStrategies": {
+    "bedroom": [
+      {"knob": "gain", "delta": 1, "reason": "Low bedroom volume thins distortion — add dynamic gain", "confidence": 0.6},
+      {"knob": "level", "delta": -3, "reason": "Keep neighbors friendly", "confidence": 1.0}
+    ],
+    "rehearsal": [
+      {"knob": "level", "delta": 1, "reason": "Cut through the drums", "confidence": 0.8}
+    ],
+    "gig": [
+      {"knob": "level", "delta": 2, "reason": "Stage volume needs headroom", "confidence": 0.8},
+      {"knob": "bass", "delta": -1, "reason": "Stage low end builds fast — trim to avoid mud", "confidence": 0.7}
+    ]
+  },
+  "chainOrder": {
+    "conventional": ["compressor", "wah", "fuzz", "tubeScreamer", "transparent", "modulation", "delay", "reverb"],
+    "exceptions": [
+      {"condition": "fuzz+wah", "note": "Fuzz goes before wah — a fuzz in front of a wah makes it honk and hum"},
+      {"condition": "fuzz+compressor", "note": "Compressors push fuzz too hard — most fuzzes want a clean signal"},
+      {"condition": "overdrive+wah", "note": "Wah before overdrive keeps the sweep wide and clean"}
+    ]
+  }
+}

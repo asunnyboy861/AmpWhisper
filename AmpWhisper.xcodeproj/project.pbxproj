@@ -1,0 +1,658 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06A6A5A9731F2042A70BD368 /* RigView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F781EF0A115E71DD264DC3 /* RigView.swift */; };
+		1ECA3EC33CA1217FD986CE74 /* AmpWhisperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBA7F82A0B5FE7017F18F0F /* AmpWhisperApp.swift */; };
+		3397F05A56D5D178B344B279 /* DeviceLibrary.json in Resources */ = {isa = PBXBuildFile; fileRef = 7083F6D52C72FCDCF6169348 /* DeviceLibrary.json */; };
+		34FEDE4FB25E2FB8D1EF4781 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F247B20B5D0D54335FF576A5 /* Assets.xcassets */; };
+		365FC6D49A187DDBDD3B1F1D /* GLMService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316D60FDADCC841E84782088 /* GLMService.swift */; };
+		37F329ED1278A3A04781E9B0 /* CameraPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7000471F7E8D928964513A5B /* CameraPicker.swift */; };
+		3ABF7BD5427CC2AEF0EBEC39 /* ContactSupportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C85BC84846167A3D3BD399 /* ContactSupportView.swift */; };
+		4719720AF1DB1BBA36F5AC04 /* SwiftDataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1202F1797C20AE3272AF68 /* SwiftDataModels.swift */; };
+		4B9F8B37CE0FABB431EE61DF /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD2C897F0DA0FE38B115873 /* SettingsView.swift */; };
+		53B101D93397080669628DDE /* QuotaManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB193A8DF27FF9CF1D6A1368 /* QuotaManager.swift */; };
+		54B653CF81BEE980BD050D11 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90737293CF700CE79A47F33 /* Models.swift */; };
+		61B50F692475368B3CE4B3A8 /* PurchaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA0123E54C9F802A8A0FDE9 /* PurchaseManager.swift */; };
+		7691B9B8DA676294DD821F93 /* ShareCardRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80834F8F4F3A5D987D916183 /* ShareCardRenderer.swift */; };
+		7C2DA714A9779FBEA203F1ED /* BYOSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E66A27FB2052B6658540094 /* BYOSettingsView.swift */; };
+		8359FBE39A887F4CB0B713C1 /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5523AD50882A4B428BD81929 /* TodayView.swift */; };
+		9A1524EA2075237198F83B61 /* ToneMatchEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559591968472213F62F0D1ED /* ToneMatchEngine.swift */; };
+		9AD419679D887A28BDE597E7 /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C18F402AC5644202E624C8 /* PaywallView.swift */; };
+		9C7CDC9A02B02AED4875FE31 /* GearCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517557AA81FD2CD8096E3BB9 /* GearCatalog.swift */; };
+		A29804A96D904CF3D30F6FB4 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 0FFCA2CB2C624B216392B315 /* PrivacyInfo.xcprivacy */; };
+		A93D286DB8E44FB76F445F44 /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB021B2DE47027A0BC86F9B /* PreviewView.swift */; };
+		B07A7E062640E6EF5AC52246 /* ToneMatchEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2D8464DB4164AF62556E7C /* ToneMatchEngineTests.swift */; };
+		B513561FCC8469EE80E85417 /* BYOAdapters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8096480D7F6FCCFA5CBFD1 /* BYOAdapters.swift */; };
+		BF43F973BD1328C77C06AB56 /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3F4B16F04987C38EC21DA7 /* Components.swift */; };
+		C433D87F477BD583FBA70A49 /* Recipes.json in Resources */ = {isa = PBXBuildFile; fileRef = 9312A5046BED1448C468FD3A /* Recipes.json */; };
+		CAFD12B4493847677E152C43 /* GearSnapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206BCE76F97DC77173A5B4DA /* GearSnapView.swift */; };
+		D794C4895AB21BE9E91279AB /* MatchResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D973067F5DE3AF355793AAC /* MatchResultView.swift */; };
+		E2BF5944A16D0E0110C7E407 /* KeychainHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1931F473C2483B4BE34F2F /* KeychainHelper.swift */; };
+		E3A682EBE33992A7633C1F18 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1637AE308DCB6FCC8B452EFF /* OnboardingView.swift */; };
+		E93581B548494B519404BE9E /* AIConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43B708568E0E7A6F2959C91 /* AIConfiguration.swift */; };
+		EEA9F82A8CEC14E65541EF5A /* AudioEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1682CBA9953B6550094695 /* AudioEngine.swift */; };
+		FA0CE3E2068064BABA5F122A /* RuleTables.json in Resources */ = {isa = PBXBuildFile; fileRef = F373EFBD447BAA1A5B02D6D0 /* RuleTables.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6651425FFCEB331C3EABD6D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E11957A14A44FA5C30C64B89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C07D76214C1F9D34D725B4F;
+			remoteInfo = AmpWhisper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0FFCA2CB2C624B216392B315 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		1637AE308DCB6FCC8B452EFF /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		1E2F0DAB5C5F4DB5436E09A3 /* AmpWhisperTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = AmpWhisperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		206BCE76F97DC77173A5B4DA /* GearSnapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GearSnapView.swift; sourceTree = "<group>"; };
+		2B1931F473C2483B4BE34F2F /* KeychainHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainHelper.swift; sourceTree = "<group>"; };
+		316D60FDADCC841E84782088 /* GLMService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GLMService.swift; sourceTree = "<group>"; };
+		4D2D8464DB4164AF62556E7C /* ToneMatchEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToneMatchEngineTests.swift; sourceTree = "<group>"; };
+		4DB021B2DE47027A0BC86F9B /* PreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
+		4F1682CBA9953B6550094695 /* AudioEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioEngine.swift; sourceTree = "<group>"; };
+		517557AA81FD2CD8096E3BB9 /* GearCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GearCatalog.swift; sourceTree = "<group>"; };
+		53C85BC84846167A3D3BD399 /* ContactSupportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactSupportView.swift; sourceTree = "<group>"; };
+		54F781EF0A115E71DD264DC3 /* RigView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RigView.swift; sourceTree = "<group>"; };
+		5523AD50882A4B428BD81929 /* TodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayView.swift; sourceTree = "<group>"; };
+		559591968472213F62F0D1ED /* ToneMatchEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToneMatchEngine.swift; sourceTree = "<group>"; };
+		6E66A27FB2052B6658540094 /* BYOSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BYOSettingsView.swift; sourceTree = "<group>"; };
+		7000471F7E8D928964513A5B /* CameraPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPicker.swift; sourceTree = "<group>"; };
+		7083F6D52C72FCDCF6169348 /* DeviceLibrary.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = DeviceLibrary.json; sourceTree = "<group>"; };
+		7D973067F5DE3AF355793AAC /* MatchResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchResultView.swift; sourceTree = "<group>"; };
+		7E8096480D7F6FCCFA5CBFD1 /* BYOAdapters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BYOAdapters.swift; sourceTree = "<group>"; };
+		80834F8F4F3A5D987D916183 /* ShareCardRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareCardRenderer.swift; sourceTree = "<group>"; };
+		8A1202F1797C20AE3272AF68 /* SwiftDataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataModels.swift; sourceTree = "<group>"; };
+		9312A5046BED1448C468FD3A /* Recipes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Recipes.json; sourceTree = "<group>"; };
+		9AD2C897F0DA0FE38B115873 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		9BA0123E54C9F802A8A0FDE9 /* PurchaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseManager.swift; sourceTree = "<group>"; };
+		9F69B5ACF23AD002159AD1BF /* AmpWhisper.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = AmpWhisper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4C18F402AC5644202E624C8 /* PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
+		AA3F4B16F04987C38EC21DA7 /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		AB193A8DF27FF9CF1D6A1368 /* QuotaManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotaManager.swift; sourceTree = "<group>"; };
+		ABBA7F82A0B5FE7017F18F0F /* AmpWhisperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmpWhisperApp.swift; sourceTree = "<group>"; };
+		B43B708568E0E7A6F2959C91 /* AIConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIConfiguration.swift; sourceTree = "<group>"; };
+		B90737293CF700CE79A47F33 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		F247B20B5D0D54335FF576A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F373EFBD447BAA1A5B02D6D0 /* RuleTables.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = RuleTables.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		2CB8FA94AC4081ED635D875E /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				559591968472213F62F0D1ED /* ToneMatchEngine.swift */,
+			);
+			path = Engine;
+			sourceTree = "<group>";
+		};
+		2D673BB3A7FF916621808AA8 /* GearSnap */ = {
+			isa = PBXGroup;
+			children = (
+				7000471F7E8D928964513A5B /* CameraPicker.swift */,
+				206BCE76F97DC77173A5B4DA /* GearSnapView.swift */,
+			);
+			path = GearSnap;
+			sourceTree = "<group>";
+		};
+		616014242D5FA3E48752B0A0 /* AmpWhisper */ = {
+			isa = PBXGroup;
+			children = (
+				ABBA7F82A0B5FE7017F18F0F /* AmpWhisperApp.swift */,
+				F247B20B5D0D54335FF576A5 /* Assets.xcassets */,
+				0FFCA2CB2C624B216392B315 /* PrivacyInfo.xcprivacy */,
+				9935844FF525F74B441C4D98 /* AudioEngine */,
+				2CB8FA94AC4081ED635D875E /* Engine */,
+				67463430490429B3C302F0F5 /* Models */,
+				DA97136ABE178EE97D0B1F6D /* Resources */,
+				B42A80671FF8549CFEB7000B /* Services */,
+				7D6B8147EE04BB4732309FF7 /* Views */,
+			);
+			path = AmpWhisper;
+			sourceTree = "<group>";
+		};
+		67463430490429B3C302F0F5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B90737293CF700CE79A47F33 /* Models.swift */,
+				8A1202F1797C20AE3272AF68 /* SwiftDataModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6A22E5EC186D760250E31ACB = {
+			isa = PBXGroup;
+			children = (
+				616014242D5FA3E48752B0A0 /* AmpWhisper */,
+				EC085D0C9324A9A74C86D0A0 /* AmpWhisperTests */,
+				E4492067B8C7274D68D6BE5B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D6B8147EE04BB4732309FF7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D98CC36428328FBC0ED6C60B /* Components */,
+				2D673BB3A7FF916621808AA8 /* GearSnap */,
+				D8CDE6D6D33743DF086AE778 /* Match */,
+				CF9DA02A51700C4D81A291D0 /* Onboarding */,
+				C3113F17D44500DA2C9EE3E9 /* Paywall */,
+				7F5B95DB78DDBB4E4E18F217 /* Preview */,
+				85069789A4C2C9C6DDE86E51 /* Rig */,
+				DCBBC5397BB606E542301000 /* Settings */,
+				CB70E7D864F9A649ACEF18AC /* Today */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7F5B95DB78DDBB4E4E18F217 /* Preview */ = {
+			isa = PBXGroup;
+			children = (
+				4DB021B2DE47027A0BC86F9B /* PreviewView.swift */,
+			);
+			path = Preview;
+			sourceTree = "<group>";
+		};
+		85069789A4C2C9C6DDE86E51 /* Rig */ = {
+			isa = PBXGroup;
+			children = (
+				54F781EF0A115E71DD264DC3 /* RigView.swift */,
+			);
+			path = Rig;
+			sourceTree = "<group>";
+		};
+		9935844FF525F74B441C4D98 /* AudioEngine */ = {
+			isa = PBXGroup;
+			children = (
+				4F1682CBA9953B6550094695 /* AudioEngine.swift */,
+			);
+			path = AudioEngine;
+			sourceTree = "<group>";
+		};
+		B42A80671FF8549CFEB7000B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B43B708568E0E7A6F2959C91 /* AIConfiguration.swift */,
+				7E8096480D7F6FCCFA5CBFD1 /* BYOAdapters.swift */,
+				517557AA81FD2CD8096E3BB9 /* GearCatalog.swift */,
+				316D60FDADCC841E84782088 /* GLMService.swift */,
+				2B1931F473C2483B4BE34F2F /* KeychainHelper.swift */,
+				9BA0123E54C9F802A8A0FDE9 /* PurchaseManager.swift */,
+				AB193A8DF27FF9CF1D6A1368 /* QuotaManager.swift */,
+				80834F8F4F3A5D987D916183 /* ShareCardRenderer.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		C3113F17D44500DA2C9EE3E9 /* Paywall */ = {
+			isa = PBXGroup;
+			children = (
+				A4C18F402AC5644202E624C8 /* PaywallView.swift */,
+			);
+			path = Paywall;
+			sourceTree = "<group>";
+		};
+		CB70E7D864F9A649ACEF18AC /* Today */ = {
+			isa = PBXGroup;
+			children = (
+				5523AD50882A4B428BD81929 /* TodayView.swift */,
+			);
+			path = Today;
+			sourceTree = "<group>";
+		};
+		CF9DA02A51700C4D81A291D0 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				1637AE308DCB6FCC8B452EFF /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		D8CDE6D6D33743DF086AE778 /* Match */ = {
+			isa = PBXGroup;
+			children = (
+				7D973067F5DE3AF355793AAC /* MatchResultView.swift */,
+			);
+			path = Match;
+			sourceTree = "<group>";
+		};
+		D98CC36428328FBC0ED6C60B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				AA3F4B16F04987C38EC21DA7 /* Components.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		DA97136ABE178EE97D0B1F6D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7083F6D52C72FCDCF6169348 /* DeviceLibrary.json */,
+				9312A5046BED1448C468FD3A /* Recipes.json */,
+				F373EFBD447BAA1A5B02D6D0 /* RuleTables.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DCBBC5397BB606E542301000 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				6E66A27FB2052B6658540094 /* BYOSettingsView.swift */,
+				53C85BC84846167A3D3BD399 /* ContactSupportView.swift */,
+				9AD2C897F0DA0FE38B115873 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		E4492067B8C7274D68D6BE5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F69B5ACF23AD002159AD1BF /* AmpWhisper.app */,
+				1E2F0DAB5C5F4DB5436E09A3 /* AmpWhisperTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC085D0C9324A9A74C86D0A0 /* AmpWhisperTests */ = {
+			isa = PBXGroup;
+			children = (
+				4D2D8464DB4164AF62556E7C /* ToneMatchEngineTests.swift */,
+			);
+			path = AmpWhisperTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C07D76214C1F9D34D725B4F /* AmpWhisper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8574196F637EC7B83C4F7311 /* Build configuration list for PBXNativeTarget "AmpWhisper" */;
+			buildPhases = (
+				7446AF7D70AB1E1EE0BF5FA2 /* Sources */,
+				4D2E6BBA97DE8249EF79B0E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AmpWhisper;
+			packageProductDependencies = (
+			);
+			productName = AmpWhisper;
+			productReference = 9F69B5ACF23AD002159AD1BF /* AmpWhisper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D71E8B2F89AAAE5B37CA268 /* AmpWhisperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1529D97702D239EF39726288 /* Build configuration list for PBXNativeTarget "AmpWhisperTests" */;
+			buildPhases = (
+				B2807F2C1720E6807950E424 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27C8DADBAA03EDFE903EE9B9 /* PBXTargetDependency */,
+			);
+			name = AmpWhisperTests;
+			packageProductDependencies = (
+			);
+			productName = AmpWhisperTests;
+			productReference = 1E2F0DAB5C5F4DB5436E09A3 /* AmpWhisperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E11957A14A44FA5C30C64B89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					1C07D76214C1F9D34D725B4F = {
+						DevelopmentTeam = JP4TN5PTS3;
+						ProvisioningStyle = Automatic;
+					};
+					2D71E8B2F89AAAE5B37CA268 = {
+						DevelopmentTeam = JP4TN5PTS3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0D8AC30681305AE667CE3975 /* Build configuration list for PBXProject "AmpWhisper" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 6A22E5EC186D760250E31ACB;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C07D76214C1F9D34D725B4F /* AmpWhisper */,
+				2D71E8B2F89AAAE5B37CA268 /* AmpWhisperTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D2E6BBA97DE8249EF79B0E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34FEDE4FB25E2FB8D1EF4781 /* Assets.xcassets in Resources */,
+				3397F05A56D5D178B344B279 /* DeviceLibrary.json in Resources */,
+				A29804A96D904CF3D30F6FB4 /* PrivacyInfo.xcprivacy in Resources */,
+				C433D87F477BD583FBA70A49 /* Recipes.json in Resources */,
+				FA0CE3E2068064BABA5F122A /* RuleTables.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7446AF7D70AB1E1EE0BF5FA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E93581B548494B519404BE9E /* AIConfiguration.swift in Sources */,
+				1ECA3EC33CA1217FD986CE74 /* AmpWhisperApp.swift in Sources */,
+				EEA9F82A8CEC14E65541EF5A /* AudioEngine.swift in Sources */,
+				B513561FCC8469EE80E85417 /* BYOAdapters.swift in Sources */,
+				7C2DA714A9779FBEA203F1ED /* BYOSettingsView.swift in Sources */,
+				37F329ED1278A3A04781E9B0 /* CameraPicker.swift in Sources */,
+				BF43F973BD1328C77C06AB56 /* Components.swift in Sources */,
+				3ABF7BD5427CC2AEF0EBEC39 /* ContactSupportView.swift in Sources */,
+				365FC6D49A187DDBDD3B1F1D /* GLMService.swift in Sources */,
+				9C7CDC9A02B02AED4875FE31 /* GearCatalog.swift in Sources */,
+				CAFD12B4493847677E152C43 /* GearSnapView.swift in Sources */,
+				E2BF5944A16D0E0110C7E407 /* KeychainHelper.swift in Sources */,
+				D794C4895AB21BE9E91279AB /* MatchResultView.swift in Sources */,
+				54B653CF81BEE980BD050D11 /* Models.swift in Sources */,
+				E3A682EBE33992A7633C1F18 /* OnboardingView.swift in Sources */,
+				9AD419679D887A28BDE597E7 /* PaywallView.swift in Sources */,
+				A93D286DB8E44FB76F445F44 /* PreviewView.swift in Sources */,
+				61B50F692475368B3CE4B3A8 /* PurchaseManager.swift in Sources */,
+				53B101D93397080669628DDE /* QuotaManager.swift in Sources */,
+				06A6A5A9731F2042A70BD368 /* RigView.swift in Sources */,
+				4B9F8B37CE0FABB431EE61DF /* SettingsView.swift in Sources */,
+				7691B9B8DA676294DD821F93 /* ShareCardRenderer.swift in Sources */,
+				4719720AF1DB1BBA36F5AC04 /* SwiftDataModels.swift in Sources */,
+				8359FBE39A887F4CB0B713C1 /* TodayView.swift in Sources */,
+				9A1524EA2075237198F83B61 /* ToneMatchEngine.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2807F2C1720E6807950E424 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B07A7E062640E6EF5AC52246 /* ToneMatchEngineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27C8DADBAA03EDFE903EE9B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C07D76214C1F9D34D725B4F /* AmpWhisper */;
+			targetProxy = 6651425FFCEB331C3EABD6D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		21184146A99DEB655A54EAB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EXCLUDED_SOURCE_FILE_NAMES = GLMProxySecret.txt;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = AmpWhisper;
+				INFOPLIST_KEY_NSCameraUsageDescription = "AmpWhisper uses the camera to photograph your gear (headstock, amp panel, pedalboard) so it can suggest matching settings.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "AmpWhisper can use photos from your library to recognize your gear.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzoutuo.AmpWhisper;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		27FE44BA104DD2D45FD706C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzoutuo.AmpWhisperTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AmpWhisper.app/AmpWhisper";
+			};
+			name = Release;
+		};
+		99A1CFF02BC10DD4E2AD83BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzoutuo.AmpWhisperTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AmpWhisper.app/AmpWhisper";
+			};
+			name = Debug;
+		};
+		AA5F05A35E3ED588C8A1B7E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = JP4TN5PTS3;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		C400BB1E52D131BF48D1EEE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EXCLUDED_SOURCE_FILE_NAMES = GLMProxySecret.txt;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = AmpWhisper;
+				INFOPLIST_KEY_NSCameraUsageDescription = "AmpWhisper uses the camera to photograph your gear (headstock, amp panel, pedalboard) so it can suggest matching settings.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "AmpWhisper can use photos from your library to recognize your gear.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzoutuo.AmpWhisper;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D60E68470EC72F0B2F39B84D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = JP4TN5PTS3;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D8AC30681305AE667CE3975 /* Build configuration list for PBXProject "AmpWhisper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D60E68470EC72F0B2F39B84D /* Debug */,
+				AA5F05A35E3ED588C8A1B7E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1529D97702D239EF39726288 /* Build configuration list for PBXNativeTarget "AmpWhisperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99A1CFF02BC10DD4E2AD83BF /* Debug */,
+				27FE44BA104DD2D45FD706C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8574196F637EC7B83C4F7311 /* Build configuration list for PBXNativeTarget "AmpWhisper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C400BB1E52D131BF48D1EEE7 /* Debug */,
+				21184146A99DEB655A54EAB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E11957A14A44FA5C30C64B89 /* Project object */;
+}

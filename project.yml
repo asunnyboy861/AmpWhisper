@@ -1,0 +1,43 @@
+name: AmpWhisper
+options:
+  bundleIdPrefix: com.zzoutuo
+  deploymentTarget:
+    iOS: "26.0"
+  createIntermediateGroups: true
+settings:
+  base:
+    SWIFT_VERSION: "5.9"
+    MARKETING_VERSION: "1.0"
+    CURRENT_PROJECT_VERSION: "1"
+    DEVELOPMENT_TEAM: JP4TN5PTS3
+    CODE_SIGN_STYLE: Automatic
+    CODE_SIGN_IDENTITY: "Apple Development"
+targets:
+  AmpWhisper:
+    type: application
+    platform: iOS
+    sources:
+      - AmpWhisper
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.zzoutuo.AmpWhisper
+        TARGETED_DEVICE_FAMILY: "1,2"
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_UIApplicationSceneManifest_Generation: YES
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        INFOPLIST_KEY_CFBundleDisplayName: AmpWhisper
+        INFOPLIST_KEY_NSCameraUsageDescription: "AmpWhisper uses the camera to photograph your gear (headstock, amp panel, pedalboard) so it can suggest matching settings."
+        INFOPLIST_KEY_NSPhotoLibraryUsageDescription: "AmpWhisper can use photos from your library to recognize your gear."
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        EXCLUDED_SOURCE_FILE_NAMES: "GLMProxySecret.txt"
+  AmpWhisperTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - AmpWhisperTests
+    dependencies:
+      - target: AmpWhisper
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.zzoutuo.AmpWhisperTests
+        GENERATE_INFOPLIST_FILE: YES

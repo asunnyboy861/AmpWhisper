@@ -1,0 +1,1678 @@
+{
+ "devices": [
+  {
+   "brand": "Fender",
+   "model": "American Standard Stratocaster",
+   "kind": "guitar",
+   "pickupType": "singleCoil"
+  },
+  {
+   "brand": "Fender",
+   "model": "Player Stratocaster",
+   "kind": "guitar",
+   "pickupType": "singleCoil"
+  },
+  {
+   "brand": "Fender",
+   "model": "American Professional II Telecaster",
+   "kind": "guitar",
+   "pickupType": "singleCoil"
+  },
+  {
+   "brand": "Fender",
+   "model": "Player Telecaster",
+   "kind": "guitar",
+   "pickupType": "singleCoil"
+  },
+  {
+   "brand": "Fender",
+   "model": "Jim Hendrix Stratocaster",
+   "kind": "guitar",
+   "pickupType": "singleCoil"
+  },
+  {
+   "brand": "Fender",
+   "model": "Mustang",
+   "kind": "guitar",
+   "pickupType": "singleCoil"
+  },
+  {
+   "brand": "Fender",
+   "model": "Jaguar",
+   "kind": "guitar",
+   "pickupType": "singleCoil"
+  },
+  {
+   "brand": "Fender",
+   "model": "Jazzmaster",
+   "kind": "guitar",
+   "pickupType": "singleCoil"
+  },
+  {
+   "brand": "Fender",
+   "model": "American Deluxe Stratocaster",
+   "kind": "guitar",
+   "pickupType": "singleCoil"
+  },
+  {
+   "brand": "Fender",
+   "model": "Classic Vibe '70s Stratocaster",
+   "kind": "guitar",
+   "pickupType": "singleCoil"
+  },
+  {
+   "brand": "Gibson",
+   "model": "Les Paul Standard '50s",
+   "kind": "guitar",
+   "pickupType": "humbucker"
+  },
+  {
+   "brand": "Gibson",
+   "model": "Les Paul Standard '60s",
+   "kind": "guitar",
+   "pickupType": "humbucker"
+  },
+  {
+   "brand": "Gibson",
+   "model": "Les Paul Custom",
+   "kind": "guitar",
+   "pickupType": "humbucker"
+  },
+  {
+   "brand": "Gibson",
+   "model": "SG Standard",
+   "kind": "guitar",
+   "pickupType": "humbucker"
+  },
+  {
+   "brand": "Gibson",
+   "model": "SG Special",
+   "kind": "guitar",
+   "pickupType": "humbucker"
+  },
+  {
+   "brand": "Gibson",
+   "model": "ES-335",
+   "kind": "guitar",
+   "pickupType": "humbucker"
+  },
+  {
+   "brand": "Gibson",
+   "model": "Explorer",
+   "kind": "guitar",
+   "pickupType": "humbucker"
+  },
+  {
+   "brand": "Gibson",
+   "model": "Flying V",
+   "kind": "guitar",
+   "pickupType": "humbucker"
+  },
+  {
+   "brand": "Gibson",
+   "model": "Firebird",
+   "kind": "guitar",
+   "pickupType": "humbucker"
+  },
+  {
+   "brand": "Gibson",
+   "model": "Les Paul Junior",
+   "kind": "guitar",
+   "pickupType": "p90"
+  },
+  {
+   "brand": "Gibson",
+   "model": "Les Paul Special",
+   "kind": "guitar",
+   "pickupType": "p90"
+  },
+  {
+   "brand": "Gibson",
+   "model": "Melody Maker",
+   "kind": "guitar",
+   "pickupType": "singleCoil"
+  },
+  {
+   "brand": "Gibson",
+   "model": "SG Faded",
+   "kind": "guitar",
+   "pickupType": "humbucker"
+  },
+  {
+   "brand": "Gibson",
+   "model": "Modern Les Paul",
+   "kind": "guitar",
+   "pickupType": "humbucker"
+  },
+  {
+   "brand": "PRS",
+   "model": "SE Custom 24",
+   "kind": "guitar",
+   "pickupType": "humbucker"
+  },
+  {
+   "brand": "PRS",
+   "model": "S2 Custom 24",
+   "kind": "guitar",
+   "pickupType": "humbucker"
+  },
+  {
+   "brand": "PRS",
+   "model": "CE 24",
+   "kind": "guitar",
+   "pickupType": "humbucker"
+  },
+  {
+   "brand": "PRS",
+   "model": "SE Paul's Guitar",
+   "kind": "guitar",
+   "pickupType": "humbucker"
+  },
+  {
+   "brand": "Ibanez",
+   "model": "RG550",
+   "kind": "guitar",
+   "pickupType": "humbucker"
+  },
+  {
+   "brand": "Ibanez",
+   "model": "RG7421",
+   "kind": "guitar",
+   "pickupType": "humbucker"
+  },
+  {
+   "brand": "Ibanez",
+   "model": "JEMJR",
+   "kind": "guitar",
+   "pickupType": "humbucker"
+  },
+  {
+   "brand": "Ibanez",
+   "model": "S570",
+   "kind": "guitar",
+   "pickupType": "humbucker"
+  },
+  {
+   "brand": "Jackson",
+   "model": "Soloist SLX",
+   "kind": "guitar",
+   "pickupType": "humbucker"
+  },
+  {
+   "brand": "Jackson",
+   "model": "Dinky JS32",
+   "kind": "guitar",
+   "pickupType": "humbucker"
+  },
+  {
+   "brand": "Jackson",
+   "model": "Rhoads RRX24",
+   "kind": "guitar",
+   "pickupType": "humbucker"
+  },
+  {
+   "brand": "ESP",
+   "model": "LTD EC-1000",
+   "kind": "guitar",
+   "pickupType": "humbucker"
+  },
+  {
+   "brand": "ESP",
+   "model": "LTD M-1000",
+   "kind": "guitar",
+   "pickupType": "humbucker"
+  },
+  {
+   "brand": "ESP",
+   "model": "LTD KH-202",
+   "kind": "guitar",
+   "pickupType": "humbucker"
+  },
+  {
+   "brand": "Schecter",
+   "model": "C-1 Standard",
+   "kind": "guitar",
+   "pickupType": "humbucker"
+  },
+  {
+   "brand": "Schecter",
+   "model": "Hellraiser C-1",
+   "kind": "guitar",
+   "pickupType": "humbucker"
+  },
+  {
+   "brand": "Schecter",
+   "model": "OMEN-6",
+   "kind": "guitar",
+   "pickupType": "humbucker"
+  },
+  {
+   "brand": "Charvel",
+   "model": "Pro-Mod DK24",
+   "kind": "guitar",
+   "pickupType": "humbucker"
+  },
+  {
+   "brand": "Music Man",
+   "model": "JP15",
+   "kind": "guitar",
+   "pickupType": "humbucker"
+  },
+  {
+   "brand": "Music Man",
+   "model": "Cutlass",
+   "kind": "guitar",
+   "pickupType": "singleCoil"
+  },
+  {
+   "brand": "Music Man",
+   "model": "Sabre",
+   "kind": "guitar",
+   "pickupType": "humbucker"
+  },
+  {
+   "brand": "Rickenbacker",
+   "model": "330",
+   "kind": "guitar",
+   "pickupType": "singleCoil"
+  },
+  {
+   "brand": "Gretsch",
+   "model": "G5420 Electromatic",
+   "kind": "guitar",
+   "pickupType": "humbucker"
+  },
+  {
+   "brand": "Gretsch",
+   "model": "White Falcon",
+   "kind": "guitar",
+   "pickupType": "humbucker"
+  },
+  {
+   "brand": "Epiphone",
+   "model": "Les Paul Standard",
+   "kind": "guitar",
+   "pickupType": "humbucker"
+  },
+  {
+   "brand": "Epiphone",
+   "model": "SG Standard",
+   "kind": "guitar",
+   "pickupType": "humbucker"
+  },
+  {
+   "brand": "Epiphone",
+   "model": "G-400 Pro",
+   "kind": "guitar",
+   "pickupType": "humbucker"
+  },
+  {
+   "brand": "Squier",
+   "model": "Classic Vibe Telecaster",
+   "kind": "guitar",
+   "pickupType": "singleCoil"
+  },
+  {
+   "brand": "Squier",
+   "model": "CV '60s Stratocaster",
+   "kind": "guitar",
+   "pickupType": "singleCoil"
+  },
+  {
+   "brand": "Squier",
+   "model": "Contemporary Stratocaster",
+   "kind": "guitar",
+   "pickupType": "humbucker"
+  },
+  {
+   "brand": "Yamaha",
+   "model": "Pacifica 112V",
+   "kind": "guitar",
+   "pickupType": "humbucker"
+  },
+  {
+   "brand": "Yamaha",
+   "model": "Revstar RSS20",
+   "kind": "guitar",
+   "pickupType": "humbucker"
+  },
+  {
+   "brand": "Chapman",
+   "model": "ML1 Pro Modern",
+   "kind": "guitar",
+   "pickupType": "humbucker"
+  },
+  {
+   "brand": "Sterling",
+   "model": "Cutlass CT50",
+   "kind": "guitar",
+   "pickupType": "singleCoil"
+  },
+  {
+   "brand": "Harley Benton",
+   "model": "SC-450 Plus",
+   "kind": "guitar",
+   "pickupType": "humbucker"
+  },
+  {
+   "brand": "Danelectro",
+   "model": "'59 Modified",
+   "kind": "guitar",
+   "pickupType": "singleCoil"
+  },
+  {
+   "brand": "Fender",
+   "model": "Twin Reverb '65",
+   "kind": "amp",
+   "ampFamily": "fenderClean"
+  },
+  {
+   "brand": "Fender",
+   "model": "Deluxe Reverb '65",
+   "kind": "amp",
+   "ampFamily": "fenderClean"
+  },
+  {
+   "brand": "Fender",
+   "model": "Hot Rod Deluxe",
+   "kind": "amp",
+   "ampFamily": "fenderClean"
+  },
+  {
+   "brand": "Fender",
+   "model": "Blues Junior",
+   "kind": "amp",
+   "ampFamily": "fenderClean"
+  },
+  {
+   "brand": "Fender",
+   "model": "Bassman '59",
+   "kind": "amp",
+   "ampFamily": "fenderClean"
+  },
+  {
+   "brand": "Fender",
+   "model": "Champion 40",
+   "kind": "amp",
+   "ampFamily": "fenderClean"
+  },
+  {
+   "brand": "Fender",
+   "model": "Super-Sonic 60",
+   "kind": "amp",
+   "ampFamily": "marshallMid"
+  },
+  {
+   "brand": "Fender",
+   "model": "Rumble 40",
+   "kind": "amp",
+   "ampFamily": "fenderClean"
+  },
+  {
+   "brand": "Marshall",
+   "model": "Plexi 1959SLP",
+   "kind": "amp",
+   "ampFamily": "marshallMid"
+  },
+  {
+   "brand": "Marshall",
+   "model": "JCM800 2203",
+   "kind": "amp",
+   "ampFamily": "marshallMid"
+  },
+  {
+   "brand": "Marshall",
+   "model": "JCM900",
+   "kind": "amp",
+   "ampFamily": "marshallMid"
+  },
+  {
+   "brand": "Marshall",
+   "model": "DSL40",
+   "kind": "amp",
+   "ampFamily": "marshallMid"
+  },
+  {
+   "brand": "Marshall",
+   "model": "Origin20",
+   "kind": "amp",
+   "ampFamily": "marshallMid"
+  },
+  {
+   "brand": "Marshall",
+   "model": "JVM410",
+   "kind": "amp",
+   "ampFamily": "highGainModern"
+  },
+  {
+   "brand": "Marshall",
+   "model": "MG15",
+   "kind": "amp",
+   "ampFamily": "marshallMid"
+  },
+  {
+   "brand": "Marshall",
+   "model": "SV20C Studio Vintage",
+   "kind": "amp",
+   "ampFamily": "marshallMid"
+  },
+  {
+   "brand": "Vox",
+   "model": "AC15C1",
+   "kind": "amp",
+   "ampFamily": "voxChime"
+  },
+  {
+   "brand": "Vox",
+   "model": "AC30C2",
+   "kind": "amp",
+   "ampFamily": "voxChime"
+  },
+  {
+   "brand": "Vox",
+   "model": "AC4TV",
+   "kind": "amp",
+   "ampFamily": "voxChime"
+  },
+  {
+   "brand": "Vox",
+   "model": "AC10C1",
+   "kind": "amp",
+   "ampFamily": "voxChime"
+  },
+  {
+   "brand": "Vox",
+   "model": "MV50",
+   "kind": "amp",
+   "ampFamily": "voxChime"
+  },
+  {
+   "brand": "Mesa Boogie",
+   "model": "Dual Rectifier",
+   "kind": "amp",
+   "ampFamily": "highGainModern"
+  },
+  {
+   "brand": "Mesa Boogie",
+   "model": "Triple Rectifier",
+   "kind": "amp",
+   "ampFamily": "highGainModern"
+  },
+  {
+   "brand": "Mesa Boogie",
+   "model": "Mark V",
+   "kind": "amp",
+   "ampFamily": "highGainModern"
+  },
+  {
+   "brand": "Mesa Boogie",
+   "model": "Mark IV",
+   "kind": "amp",
+   "ampFamily": "highGainModern"
+  },
+  {
+   "brand": "Mesa Boogie",
+   "model": "JP-2C",
+   "kind": "amp",
+   "ampFamily": "highGainModern"
+  },
+  {
+   "brand": "Mesa Boogie",
+   "model": "Express 5:25",
+   "kind": "amp",
+   "ampFamily": "voxChime"
+  },
+  {
+   "brand": "Orange",
+   "model": "Rockerverb 50",
+   "kind": "amp",
+   "ampFamily": "marshallMid"
+  },
+  {
+   "brand": "Orange",
+   "model": "TH30",
+   "kind": "amp",
+   "ampFamily": "marshallMid"
+  },
+  {
+   "brand": "Orange",
+   "model": "Dark Terror",
+   "kind": "amp",
+   "ampFamily": "highGainModern"
+  },
+  {
+   "brand": "Orange",
+   "model": "Tiny Terror",
+   "kind": "amp",
+   "ampFamily": "marshallMid"
+  },
+  {
+   "brand": "Orange",
+   "model": "OR15",
+   "kind": "amp",
+   "ampFamily": "marshallMid"
+  },
+  {
+   "brand": "Orange",
+   "model": "Rocker 15",
+   "kind": "amp",
+   "ampFamily": "marshallMid"
+  },
+  {
+   "brand": "EVH",
+   "model": "5150III 50W",
+   "kind": "amp",
+   "ampFamily": "highGainModern"
+  },
+  {
+   "brand": "EVH",
+   "model": "5150III LBX",
+   "kind": "amp",
+   "ampFamily": "highGainModern"
+  },
+  {
+   "brand": "Peavey",
+   "model": "6505+",
+   "kind": "amp",
+   "ampFamily": "highGainModern"
+  },
+  {
+   "brand": "Peavey",
+   "model": "5150",
+   "kind": "amp",
+   "ampFamily": "highGainModern"
+  },
+  {
+   "brand": "Peavey",
+   "model": "XXX",
+   "kind": "amp",
+   "ampFamily": "highGainModern"
+  },
+  {
+   "brand": "Peavey",
+   "model": "Vypyr X2",
+   "kind": "amp",
+   "ampFamily": "highGainModern"
+  },
+  {
+   "brand": "Diezel",
+   "model": "VH4",
+   "kind": "amp",
+   "ampFamily": "highGainModern"
+  },
+  {
+   "brand": "Diezel",
+   "model": "Herbert",
+   "kind": "amp",
+   "ampFamily": "highGainModern"
+  },
+  {
+   "brand": "Soldano",
+   "model": "SLO-100",
+   "kind": "amp",
+   "ampFamily": "highGainModern"
+  },
+  {
+   "brand": "Hughes & Kettner",
+   "model": "TriAmp MK 3",
+   "kind": "amp",
+   "ampFamily": "highGainModern"
+  },
+  {
+   "brand": "Hughes & Kettner",
+   "model": "GrandMeister 40",
+   "kind": "amp",
+   "ampFamily": "highGainModern"
+  },
+  {
+   "brand": "ENGL",
+   "model": "Powerball II",
+   "kind": "amp",
+   "ampFamily": "highGainModern"
+  },
+  {
+   "brand": "ENGL",
+   "model": "Fireball 25",
+   "kind": "amp",
+   "ampFamily": "highGainModern"
+  },
+  {
+   "brand": "ENGL",
+   "model": "Savage 120",
+   "kind": "amp",
+   "ampFamily": "highGainModern"
+  },
+  {
+   "brand": "Friedman",
+   "model": "BE-100",
+   "kind": "amp",
+   "ampFamily": "highGainModern"
+  },
+  {
+   "brand": "Friedman",
+   "model": "Runt-50",
+   "kind": "amp",
+   "ampFamily": "highGainModern"
+  },
+  {
+   "brand": "Victory",
+   "model": "The Kraken VX50",
+   "kind": "amp",
+   "ampFamily": "highGainModern"
+  },
+  {
+   "brand": "Revv",
+   "model": "Generator 120",
+   "kind": "amp",
+   "ampFamily": "highGainModern"
+  },
+  {
+   "brand": "Supro",
+   "model": "Delta King 10",
+   "kind": "amp",
+   "ampFamily": "voxChime"
+  },
+  {
+   "brand": "Hiwatt",
+   "model": "DR103 Custom 100",
+   "kind": "amp",
+   "ampFamily": "fenderClean"
+  },
+  {
+   "brand": "Laney",
+   "model": "GH100R",
+   "kind": "amp",
+   "ampFamily": "marshallMid"
+  },
+  {
+   "brand": "Laney",
+   "model": "Lionheart L20T",
+   "kind": "amp",
+   "ampFamily": "voxChime"
+  },
+  {
+   "brand": "Blackstar",
+   "model": "HT Club 40",
+   "kind": "amp",
+   "ampFamily": "highGainModern"
+  },
+  {
+   "brand": "Blackstar",
+   "model": "Series One 104",
+   "kind": "amp",
+   "ampFamily": "highGainModern"
+  },
+  {
+   "brand": "Bugera",
+   "model": "6262 Infinium",
+   "kind": "amp",
+   "ampFamily": "highGainModern"
+  },
+  {
+   "brand": "Bugera",
+   "model": "G20 Infinium",
+   "kind": "amp",
+   "ampFamily": "highGainModern"
+  },
+  {
+   "brand": "Sovtek",
+   "model": "MIG-50",
+   "kind": "amp",
+   "ampFamily": "marshallMid"
+  },
+  {
+   "brand": "Ampeg",
+   "model": "V-4B",
+   "kind": "amp",
+   "ampFamily": "fenderClean"
+  },
+  {
+   "brand": "Marshall",
+   "model": "1960A 4x12",
+   "kind": "cab",
+   "cabBrightness": 0.55
+  },
+  {
+   "brand": "Marshall",
+   "model": "1960B 4x12",
+   "kind": "cab",
+   "cabBrightness": 0.5
+  },
+  {
+   "brand": "Marshall",
+   "model": "SV212 2x12",
+   "kind": "cab",
+   "cabBrightness": 0.6
+  },
+  {
+   "brand": "Marshall",
+   "model": "MX412A 4x12",
+   "kind": "cab",
+   "cabBrightness": 0.55
+  },
+  {
+   "brand": "Marshall",
+   "model": "MX212A 2x12",
+   "kind": "cab",
+   "cabBrightness": 0.6
+  },
+  {
+   "brand": "Marshall",
+   "model": "Studio Jubilee 2x12",
+   "kind": "cab",
+   "cabBrightness": 0.6
+  },
+  {
+   "brand": "Mesa Boogie",
+   "model": "4x12 Rectifier Traditional",
+   "kind": "cab",
+   "cabBrightness": 0.35
+  },
+  {
+   "brand": "Mesa Boogie",
+   "model": "2x12 Rectifier Compact",
+   "kind": "cab",
+   "cabBrightness": 0.35
+  },
+  {
+   "brand": "Mesa Boogie",
+   "model": "4x12 Rectifier Standard",
+   "kind": "cab",
+   "cabBrightness": 0.35
+  },
+  {
+   "brand": "Mesa Boogie",
+   "model": "Mini Recto 2x12",
+   "kind": "cab",
+   "cabBrightness": 0.4
+  },
+  {
+   "brand": "Mesa Boogie",
+   "model": "Lonestar 2x12",
+   "kind": "cab",
+   "cabBrightness": 0.7
+  },
+  {
+   "brand": "Mesa Boogie",
+   "model": "Mark V 1x12",
+   "kind": "cab",
+   "cabBrightness": 0.55
+  },
+  {
+   "brand": "Orange",
+   "model": "PPC412 4x12",
+   "kind": "cab",
+   "cabBrightness": 0.3
+  },
+  {
+   "brand": "Orange",
+   "model": "PPC212 2x12",
+   "kind": "cab",
+   "cabBrightness": 0.3
+  },
+  {
+   "brand": "Orange",
+   "model": "PPC112 1x12",
+   "kind": "cab",
+   "cabBrightness": 0.3
+  },
+  {
+   "brand": "Orange",
+   "model": "OBC410 Bass Cab",
+   "kind": "cab",
+   "cabBrightness": 0.35
+  },
+  {
+   "brand": "Orange",
+   "model": "Rockerverb 2x12",
+   "kind": "cab",
+   "cabBrightness": 0.3
+  },
+  {
+   "brand": "EVH",
+   "model": "4x12 Straight",
+   "kind": "cab",
+   "cabBrightness": 0.65
+  },
+  {
+   "brand": "EVH",
+   "model": "4x12 Angled",
+   "kind": "cab",
+   "cabBrightness": 0.65
+  },
+  {
+   "brand": "EVH",
+   "model": "212 2x12",
+   "kind": "cab",
+   "cabBrightness": 0.65
+  },
+  {
+   "brand": "EVH",
+   "model": "112 1x12",
+   "kind": "cab",
+   "cabBrightness": 0.7
+  },
+  {
+   "brand": "Fender",
+   "model": "Twin Reverb 2x12",
+   "kind": "cab",
+   "cabBrightness": 0.9
+  },
+  {
+   "brand": "Fender",
+   "model": "Hot Rod Deluxe 1x12",
+   "kind": "cab",
+   "cabBrightness": 0.85
+  },
+  {
+   "brand": "Fender",
+   "model": "Rumble 2x12",
+   "kind": "cab",
+   "cabBrightness": 0.7
+  },
+  {
+   "brand": "Fender",
+   "model": "Bassman 4x10",
+   "kind": "cab",
+   "cabBrightness": 0.8
+  },
+  {
+   "brand": "Fender",
+   "model": "Super Champ 1x10",
+   "kind": "cab",
+   "cabBrightness": 0.85
+  },
+  {
+   "brand": "Fender",
+   "model": "Champion 600 1x6",
+   "kind": "cab",
+   "cabBrightness": 0.85
+  },
+  {
+   "brand": "Vox",
+   "model": "V212C Custom 2x12",
+   "kind": "cab",
+   "cabBrightness": 0.8
+  },
+  {
+   "brand": "Vox",
+   "model": "BC112 1x12",
+   "kind": "cab",
+   "cabBrightness": 0.8
+  },
+  {
+   "brand": "Vox",
+   "model": "AC30 2x12 Alnico",
+   "kind": "cab",
+   "cabBrightness": 0.85
+  },
+  {
+   "brand": "Vox",
+   "model": "V412 4x12",
+   "kind": "cab",
+   "cabBrightness": 0.75
+  },
+  {
+   "brand": "Vox",
+   "model": "Pathfinder 1x10",
+   "kind": "cab",
+   "cabBrightness": 0.8
+  },
+  {
+   "brand": "Mesa Boogie",
+   "model": "Road King 4x12",
+   "kind": "cab",
+   "cabBrightness": 0.4
+  },
+  {
+   "brand": "Mesa Boogie",
+   "model": "Stiletto 4x12",
+   "kind": "cab",
+   "cabBrightness": 0.45
+  },
+  {
+   "brand": "Hughes & Kettner",
+   "model": "CC 4x12",
+   "kind": "cab",
+   "cabBrightness": 0.5
+  },
+  {
+   "brand": "Hughes & Kettner",
+   "model": "TM212 2x12",
+   "kind": "cab",
+   "cabBrightness": 0.5
+  },
+  {
+   "brand": "ENGL",
+   "model": "Standard 4x12",
+   "kind": "cab",
+   "cabBrightness": 0.5
+  },
+  {
+   "brand": "ENGL",
+   "model": "Pro Straight 4x12",
+   "kind": "cab",
+   "cabBrightness": 0.45
+  },
+  {
+   "brand": "Diezel",
+   "model": "Frontloaded 4x12",
+   "kind": "cab",
+   "cabBrightness": 0.4
+  },
+  {
+   "brand": "Diezel",
+   "model": "V212 2x12",
+   "kind": "cab",
+   "cabBrightness": 0.4
+  },
+  {
+   "brand": "Friedman",
+   "model": "Vintage 4x12",
+   "kind": "cab",
+   "cabBrightness": 0.55
+  },
+  {
+   "brand": "Friedman",
+   "model": "212 Vintage 2x12",
+   "kind": "cab",
+   "cabBrightness": 0.55
+  },
+  {
+   "brand": "Bogner",
+   "model": "Uberkab 4x12",
+   "kind": "cab",
+   "cabBrightness": 0.45
+  },
+  {
+   "brand": "Bogner",
+   "model": "212C 2x12",
+   "kind": "cab",
+   "cabBrightness": 0.5
+  },
+  {
+   "brand": "Avatar",
+   "model": "Traditional 4x12",
+   "kind": "cab",
+   "cabBrightness": 0.5
+  },
+  {
+   "brand": "Avatar",
+   "model": "Contemporary 2x12",
+   "kind": "cab",
+   "cabBrightness": 0.55
+  },
+  {
+   "brand": "Suhr",
+   "model": "Pete Thorn 2x12",
+   "kind": "cab",
+   "cabBrightness": 0.6
+  },
+  {
+   "brand": "Suhr",
+   "model": "4x12 Standard",
+   "kind": "cab",
+   "cabBrightness": 0.55
+  },
+  {
+   "brand": "Victory",
+   "model": "V412 4x12",
+   "kind": "cab",
+   "cabBrightness": 0.5
+  },
+  {
+   "brand": "Victory",
+   "model": "V212 2x12",
+   "kind": "cab",
+   "cabBrightness": 0.5
+  },
+  {
+   "brand": "Supro",
+   "model": "Delta King 1x10",
+   "kind": "cab",
+   "cabBrightness": 0.75
+  },
+  {
+   "brand": "Supro",
+   "model": "1695T Black Magick 1x12",
+   "kind": "cab",
+   "cabBrightness": 0.75
+  },
+  {
+   "brand": "Laney",
+   "model": "Lionheart 2x12",
+   "kind": "cab",
+   "cabBrightness": 0.7
+  },
+  {
+   "brand": "Laney",
+   "model": "Ironheart 4x12",
+   "kind": "cab",
+   "cabBrightness": 0.45
+  },
+  {
+   "brand": "Blackstar",
+   "model": "HTV-212 2x12",
+   "kind": "cab",
+   "cabBrightness": 0.6
+  },
+  {
+   "brand": "Blackstar",
+   "model": "Series One 4x12",
+   "kind": "cab",
+   "cabBrightness": 0.5
+  },
+  {
+   "brand": "Blackstar",
+   "model": "HT-112 1x12",
+   "kind": "cab",
+   "cabBrightness": 0.6
+  },
+  {
+   "brand": "Peavey",
+   "model": "5150 4x12",
+   "kind": "cab",
+   "cabBrightness": 0.45
+  },
+  {
+   "brand": "Peavey",
+   "model": "XXX 4x12",
+   "kind": "cab",
+   "cabBrightness": 0.45
+  },
+  {
+   "brand": "Peavey",
+   "model": "ValveKing 4x12",
+   "kind": "cab",
+   "cabBrightness": 0.5
+  },
+  {
+   "brand": "Randall",
+   "model": "RX412 4x12",
+   "kind": "cab",
+   "cabBrightness": 0.45
+  },
+  {
+   "brand": "Randall",
+   "model": "RG412 4x12",
+   "kind": "cab",
+   "cabBrightness": 0.4
+  },
+  {
+   "brand": "Ampeg",
+   "model": "SVT-410HLF Bass Cab",
+   "kind": "cab",
+   "cabBrightness": 0.4
+  },
+  {
+   "brand": "Gallien-Krueger",
+   "model": "410 CXE Bass Cab",
+   "kind": "cab",
+   "cabBrightness": 0.4
+  },
+  {
+   "brand": "Dr. Z",
+   "model": "Z-Best 2x12",
+   "kind": "cab",
+   "cabBrightness": 0.65
+  },
+  {
+   "brand": "Matchless",
+   "model": "HC-85 1x12",
+   "kind": "cab",
+   "cabBrightness": 0.7
+  },
+  {
+   "brand": "Bad Cat",
+   "model": "2x12 Classic",
+   "kind": "cab",
+   "cabBrightness": 0.65
+  },
+  {
+   "brand": "Carr",
+   "model": "Skylark 1x12",
+   "kind": "cab",
+   "cabBrightness": 0.75
+  },
+  {
+   "brand": "Two-Rock",
+   "model": "Traditional 2x12",
+   "kind": "cab",
+   "cabBrightness": 0.7
+  },
+  {
+   "brand": "Divided by 13",
+   "model": "FTR 37 2x12",
+   "kind": "cab",
+   "cabBrightness": 0.65
+  },
+  {
+   "brand": "Morgan",
+   "model": "PR12 1x12",
+   "kind": "cab",
+   "cabBrightness": 0.75
+  },
+  {
+   "brand": "Swart",
+   "model": "Atomic Jr 1x12",
+   "kind": "cab",
+   "cabBrightness": 0.8
+  },
+  {
+   "brand": "Victoria",
+   "model": "Bassman 4x10 Reissue",
+   "kind": "cab",
+   "cabBrightness": 0.8
+  },
+  {
+   "brand": "Clark",
+   "model": "Beaufort 2x10",
+   "kind": "cab",
+   "cabBrightness": 0.8
+  },
+  {
+   "brand": "Eminence",
+   "model": "Legacy 2x12 Open Back",
+   "kind": "cab",
+   "cabBrightness": 0.85
+  },
+  {
+   "brand": "Mojotone",
+   "model": "Deluxe 1x12 Open Back",
+   "kind": "cab",
+   "cabBrightness": 0.85
+  },
+  {
+   "brand": "Ibanez",
+   "model": "TS9 Tube Screamer",
+   "kind": "pedal",
+   "pedalFamily": "tubeScreamer"
+  },
+  {
+   "brand": "Ibanez",
+   "model": "TS808 Tube Screamer",
+   "kind": "pedal",
+   "pedalFamily": "tubeScreamer"
+  },
+  {
+   "brand": "Ibanez",
+   "model": "TS Mini",
+   "kind": "pedal",
+   "pedalFamily": "tubeScreamer"
+  },
+  {
+   "brand": "Boss",
+   "model": "SD-1 Super OverDrive",
+   "kind": "pedal",
+   "pedalFamily": "tubeScreamer"
+  },
+  {
+   "brand": "Boss",
+   "model": "BD-2 Blues Driver",
+   "kind": "pedal",
+   "pedalFamily": "transparent"
+  },
+  {
+   "brand": "Boss",
+   "model": "DS-1 Distortion",
+   "kind": "pedal",
+   "pedalFamily": "fuzz"
+  },
+  {
+   "brand": "Boss",
+   "model": "MT-2 Metal Zone",
+   "kind": "pedal",
+   "pedalFamily": "fuzz"
+  },
+  {
+   "brand": "Boss",
+   "model": "JB-2 Angry Driver",
+   "kind": "pedal",
+   "pedalFamily": "transparent"
+  },
+  {
+   "brand": "Klon",
+   "model": "KTR",
+   "kind": "pedal",
+   "pedalFamily": "transparent"
+  },
+  {
+   "brand": "Electro-Harmonix",
+   "model": "Soul Food",
+   "kind": "pedal",
+   "pedalFamily": "transparent"
+  },
+  {
+   "brand": "Electro-Harmonix",
+   "model": "Big Muff Pi",
+   "kind": "pedal",
+   "pedalFamily": "fuzz"
+  },
+  {
+   "brand": "Electro-Harmonix",
+   "model": "Op-Amp Big Muff",
+   "kind": "pedal",
+   "pedalFamily": "fuzz"
+  },
+  {
+   "brand": "Electro-Harmonix",
+   "model": "Green Russian Big Muff",
+   "kind": "pedal",
+   "pedalFamily": "fuzz"
+  },
+  {
+   "brand": "Electro-Harmonix",
+   "model": "Holy Grail Neo",
+   "kind": "pedal",
+   "pedalFamily": "reverb"
+  },
+  {
+   "brand": "Electro-Harmonix",
+   "model": "Memory Boy",
+   "kind": "pedal",
+   "pedalFamily": "delay"
+  },
+  {
+   "brand": "Electro-Harmonix",
+   "model": "Pog2",
+   "kind": "pedal",
+   "pedalFamily": "modulation"
+  },
+  {
+   "brand": "ProCo",
+   "model": "RAT 2",
+   "kind": "pedal",
+   "pedalFamily": "fuzz"
+  },
+  {
+   "brand": "ProCo",
+   "model": "Deucetone RAT",
+   "kind": "pedal",
+   "pedalFamily": "fuzz"
+  },
+  {
+   "brand": "JHS",
+   "model": "Angry Charlie",
+   "kind": "pedal",
+   "pedalFamily": "transparent"
+  },
+  {
+   "brand": "JHS",
+   "model": "Pack Rat",
+   "kind": "pedal",
+   "pedalFamily": "fuzz"
+  },
+  {
+   "brand": "JHS",
+   "model": "Morning Glory",
+   "kind": "pedal",
+   "pedalFamily": "transparent"
+  },
+  {
+   "brand": "JHS",
+   "model": "Legend of Fuzz",
+   "kind": "pedal",
+   "pedalFamily": "fuzz"
+  },
+  {
+   "brand": "Fulltone",
+   "model": "OCD",
+   "kind": "pedal",
+   "pedalFamily": "transparent"
+  },
+  {
+   "brand": "Fulltone",
+   "model": "Full-Drive 2",
+   "kind": "pedal",
+   "pedalFamily": "tubeScreamer"
+  },
+  {
+   "brand": "Fulltone",
+   "model": "'70 BC Fuzz",
+   "kind": "pedal",
+   "pedalFamily": "fuzz"
+  },
+  {
+   "brand": "Timmy",
+   "model": "Timmy Overdrive",
+   "kind": "pedal",
+   "pedalFamily": "transparent"
+  },
+  {
+   "brand": "Paul Cochrane",
+   "model": "Timmy V3",
+   "kind": "pedal",
+   "pedalFamily": "transparent"
+  },
+  {
+   "brand": "Analogman",
+   "model": "King of Tone",
+   "kind": "pedal",
+   "pedalFamily": "transparent"
+  },
+  {
+   "brand": "Analogman",
+   "model": "Sun Face Fuzz",
+   "kind": "pedal",
+   "pedalFamily": "fuzz"
+  },
+  {
+   "brand": "Dunlop",
+   "model": "Fuzz Face Mini",
+   "kind": "pedal",
+   "pedalFamily": "fuzz"
+  },
+  {
+   "brand": "Dunlop",
+   "model": "Cry Baby GCB95",
+   "kind": "pedal",
+   "pedalFamily": "wah"
+  },
+  {
+   "brand": "Dunlop",
+   "model": "535Q Cry Baby",
+   "kind": "pedal",
+   "pedalFamily": "wah"
+  },
+  {
+   "brand": "Dunlop",
+   "model": "MXR Dyna Comp",
+   "kind": "pedal",
+   "pedalFamily": "compressor"
+  },
+  {
+   "brand": "Dunlop",
+   "model": "MXR Phase 90",
+   "kind": "pedal",
+   "pedalFamily": "modulation"
+  },
+  {
+   "brand": "Dunlop",
+   "model": "MXR Flanger M117",
+   "kind": "pedal",
+   "pedalFamily": "modulation"
+  },
+  {
+   "brand": "Dunlop",
+   "model": "MXR Carbon Copy",
+   "kind": "pedal",
+   "pedalFamily": "delay"
+  },
+  {
+   "brand": "Dunlop",
+   "model": "MXR M80 Bass DI",
+   "kind": "pedal",
+   "pedalFamily": "compressor"
+  },
+  {
+   "brand": "Jim Dunlop",
+   "model": "MXR Super Badass Distortion",
+   "kind": "pedal",
+   "pedalFamily": "fuzz"
+  },
+  {
+   "brand": "Boss",
+   "model": "TU-3 Tuner",
+   "kind": "pedal",
+   "pedalFamily": "transparent"
+  },
+  {
+   "brand": "Boss",
+   "model": "RV-6 Reverb",
+   "kind": "pedal",
+   "pedalFamily": "reverb"
+  },
+  {
+   "brand": "Boss",
+   "model": "DD-8 Digital Delay",
+   "kind": "pedal",
+   "pedalFamily": "delay"
+  },
+  {
+   "brand": "Boss",
+   "model": "CE-2W Chorus",
+   "kind": "pedal",
+   "pedalFamily": "modulation"
+  },
+  {
+   "brand": "Boss",
+   "model": "CS-3 Compressor",
+   "kind": "pedal",
+   "pedalFamily": "compressor"
+  },
+  {
+   "brand": "Boss",
+   "model": "OC-5 Octave",
+   "kind": "pedal",
+   "pedalFamily": "fuzz"
+  },
+  {
+   "brand": "Boss",
+   "model": "MD-200 Modulation",
+   "kind": "pedal",
+   "pedalFamily": "modulation"
+  },
+  {
+   "brand": "Boss",
+   "model": "SY-1 Synth",
+   "kind": "pedal",
+   "pedalFamily": "modulation"
+  },
+  {
+   "brand": "TC Electronic",
+   "model": "PolyTune 3",
+   "kind": "pedal",
+   "pedalFamily": "transparent"
+  },
+  {
+   "brand": "TC Electronic",
+   "model": "Hall of Fame 2",
+   "kind": "pedal",
+   "pedalFamily": "reverb"
+  },
+  {
+   "brand": "TC Electronic",
+   "model": "Flashback 2",
+   "kind": "pedal",
+   "pedalFamily": "delay"
+  },
+  {
+   "brand": "TC Electronic",
+   "model": "Spark Booster",
+   "kind": "pedal",
+   "pedalFamily": "transparent"
+  },
+  {
+   "brand": "TC Electronic",
+   "model": "Vortex Flanger",
+   "kind": "pedal",
+   "pedalFamily": "modulation"
+  },
+  {
+   "brand": "Strymon",
+   "model": "BigSky",
+   "kind": "pedal",
+   "pedalFamily": "reverb"
+  },
+  {
+   "brand": "Strymon",
+   "model": "Timeline",
+   "kind": "pedal",
+   "pedalFamily": "delay"
+  },
+  {
+   "brand": "Strymon",
+   "model": "Mobius",
+   "kind": "pedal",
+   "pedalFamily": "modulation"
+  },
+  {
+   "brand": "Strymon",
+   "model": "Iridium",
+   "kind": "pedal",
+   "pedalFamily": "reverb"
+  },
+  {
+   "brand": "EarthQuaker",
+   "model": "Plumes",
+   "kind": "pedal",
+   "pedalFamily": "tubeScreamer"
+  },
+  {
+   "brand": "EarthQuaker",
+   "model": "Hoof Fuzz",
+   "kind": "pedal",
+   "pedalFamily": "fuzz"
+  },
+  {
+   "brand": "EarthQuaker",
+   "model": "Palisades",
+   "kind": "pedal",
+   "pedalFamily": "tubeScreamer"
+  },
+  {
+   "brand": "EarthQuaker",
+   "model": "Avalanche Run",
+   "kind": "pedal",
+   "pedalFamily": "delay"
+  },
+  {
+   "brand": "EarthQuaker",
+   "model": "Dispatch Master",
+   "kind": "pedal",
+   "pedalFamily": "delay"
+  },
+  {
+   "brand": "Walrus",
+   "model": "Fathom Reverb",
+   "kind": "pedal",
+   "pedalFamily": "reverb"
+  },
+  {
+   "brand": "Walrus",
+   "model": "Sl\u00f6 Reverb",
+   "kind": "pedal",
+   "pedalFamily": "reverb"
+  },
+  {
+   "brand": "Walrus",
+   "model": "Julianna Chorus",
+   "kind": "pedal",
+   "pedalFamily": "modulation"
+  },
+  {
+   "brand": "Walrus",
+   "model": " ACS Low Tier",
+   "kind": "pedal",
+   "pedalFamily": "modulation"
+  },
+  {
+   "brand": "Way Huge",
+   "model": "Green Rhino",
+   "kind": "pedal",
+   "pedalFamily": "tubeScreamer"
+  },
+  {
+   "brand": "Way Huge",
+   "model": "Swollen Pickle",
+   "kind": "pedal",
+   "pedalFamily": "fuzz"
+  },
+  {
+   "brand": "Voodoo Lab",
+   "model": "Sparkle Drive",
+   "kind": "pedal",
+   "pedalFamily": "tubeScreamer"
+  },
+  {
+   "brand": "Vemuram",
+   "model": "Jan Ray",
+   "kind": "pedal",
+   "pedalFamily": "transparent"
+  },
+  {
+   "brand": "Hermida",
+   "model": "Zendrive",
+   "kind": "pedal",
+   "pedalFamily": "transparent"
+  },
+  {
+   "brand": "Xotic",
+   "model": "EP Booster",
+   "kind": "pedal",
+   "pedalFamily": "transparent"
+  },
+  {
+   "brand": "Xotic",
+   "model": "RC Booster",
+   "kind": "pedal",
+   "pedalFamily": "transparent"
+  },
+  {
+   "brand": "Suhr",
+   "model": "Riot",
+   "kind": "pedal",
+   "pedalFamily": "transparent"
+  },
+  {
+   "brand": "Fortin",
+   "model": "Grind Boost",
+   "kind": "pedal",
+   "pedalFamily": "transparent"
+  },
+  {
+   "brand": "Maxon",
+   "model": "OD808",
+   "kind": "pedal",
+   "pedalFamily": "tubeScreamer"
+  },
+  {
+   "brand": "DOD",
+   "model": "250 Overdrive",
+   "kind": "pedal",
+   "pedalFamily": "tubeScreamer"
+  },
+  {
+   "brand": "Behringer",
+   "model": "TO800 Vintage Tube Overdrive",
+   "kind": "pedal",
+   "pedalFamily": "tubeScreamer"
+  },
+  {
+   "brand": "Wampler",
+   "model": "Tumnus",
+   "kind": "pedal",
+   "pedalFamily": "transparent"
+  },
+  {
+   "brand": "Wampler",
+   "model": "Pinnacle Distortion",
+   "kind": "pedal",
+   "pedalFamily": "fuzz"
+  },
+  {
+   "brand": "Freeman",
+   "model": "Perf Normal",
+   "kind": "pedal",
+   "pedalFamily": "transparent"
+  },
+  {
+   "brand": "Fuhrmann",
+   "model": "Real Drive 2",
+   "kind": "pedal",
+   "pedalFamily": "tubeScreamer"
+  },
+  {
+   "brand": "Mu-FX",
+   "model": "Octave Fuzz",
+   "kind": "pedal",
+   "pedalFamily": "fuzz"
+  },
+  {
+   "brand": "Roger Mayer",
+   "model": "Voodoo-1",
+   "kind": "pedal",
+   "pedalFamily": "fuzz"
+  }
+ ]
+}
