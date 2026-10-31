@@ -48,8 +48,12 @@ struct PreviewView: View {
                 }
                 .buttonStyle(.borderedProminent)
                 .padding(.horizontal)
+
+                Spacer(minLength: 0)
             }
-            .background(Color.tolex)
+            .frame(maxWidth: 640, maxHeight: .infinity, alignment: .top)
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .background(Color.tolex.ignoresSafeArea())
             .toolbar {
                 ToolbarItem(placement: .cancellationAction) {
                     Button("Close") {

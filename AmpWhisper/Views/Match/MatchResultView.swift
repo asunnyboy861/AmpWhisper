@@ -30,6 +30,11 @@ final class MatchViewModel: ObservableObject {
         let adapted = ToneMatchEngine.adapt(recipe: recipe, rig: rig)
         result = adapted
         knobs = adapted.knobs
+        #if DEBUG
+        if ScreenshotScenario.autoLightKnobs {
+            confirmedKnobs = Set(AppConstants.knobOrder)
+        }
+        #endif
     }
 
     func confirm(_ knob: String) {
@@ -89,6 +94,8 @@ struct MatchResultView: View {
                 }
             }
             .padding()
+            .frame(maxWidth: 760)
+            .frame(maxWidth: .infinity)
         }
         .background(Color.tolex)
         .navigationTitle("ToneMatch")

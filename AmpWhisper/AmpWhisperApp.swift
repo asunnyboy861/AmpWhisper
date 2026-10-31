@@ -19,10 +19,20 @@ struct AmpWhisperApp: App {
 
     var body: some Scene {
         WindowGroup {
-            RootView()
-                .modelContainer(container)
-                .preferredColorScheme(.dark)
-                .tint(.amber)
+            Group {
+                #if DEBUG
+                if let scenario = ScreenshotScenario.current {
+                    ScreenshotRootView(scenario: scenario)
+                } else {
+                    RootView()
+                }
+                #else
+                RootView()
+                #endif
+            }
+            .modelContainer(container)
+            .preferredColorScheme(.dark)
+            .tint(.amber)
         }
     }
 }

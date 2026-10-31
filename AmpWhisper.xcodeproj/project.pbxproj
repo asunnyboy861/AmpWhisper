@@ -22,6 +22,7 @@
 		7691B9B8DA676294DD821F93 /* ShareCardRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80834F8F4F3A5D987D916183 /* ShareCardRenderer.swift */; };
 		7C2DA714A9779FBEA203F1ED /* BYOSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E66A27FB2052B6658540094 /* BYOSettingsView.swift */; };
 		8359FBE39A887F4CB0B713C1 /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5523AD50882A4B428BD81929 /* TodayView.swift */; };
+		9633E9ACA70072A4F9425D8F /* ScreenshotHarness.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2916BFF69E3FB4EFED06B4 /* ScreenshotHarness.swift */; };
 		9A1524EA2075237198F83B61 /* ToneMatchEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559591968472213F62F0D1ED /* ToneMatchEngine.swift */; };
 		9AD419679D887A28BDE597E7 /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C18F402AC5644202E624C8 /* PaywallView.swift */; };
 		9C7CDC9A02B02AED4875FE31 /* GearCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517557AA81FD2CD8096E3BB9 /* GearCatalog.swift */; };
@@ -82,6 +83,7 @@
 		AA3F4B16F04987C38EC21DA7 /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
 		AB193A8DF27FF9CF1D6A1368 /* QuotaManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotaManager.swift; sourceTree = "<group>"; };
 		ABBA7F82A0B5FE7017F18F0F /* AmpWhisperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmpWhisperApp.swift; sourceTree = "<group>"; };
+		AD2916BFF69E3FB4EFED06B4 /* ScreenshotHarness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotHarness.swift; sourceTree = "<group>"; };
 		B43B708568E0E7A6F2959C91 /* AIConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIConfiguration.swift; sourceTree = "<group>"; };
 		B90737293CF700CE79A47F33 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		F247B20B5D0D54335FF576A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 				6DF84A722CCF262775A4E2B5 /* GLMProxySecret.txt */,
 				0FFCA2CB2C624B216392B315 /* PrivacyInfo.xcprivacy */,
 				9935844FF525F74B441C4D98 /* AudioEngine */,
+				F0C2ABD3F179F9C8B2EAE9B4 /* Debug */,
 				2CB8FA94AC4081ED635D875E /* Engine */,
 				67463430490429B3C302F0F5 /* Models */,
 				DA97136ABE178EE97D0B1F6D /* Resources */,
@@ -273,6 +276,14 @@
 			path = AmpWhisperTests;
 			sourceTree = "<group>";
 		};
+		F0C2ABD3F179F9C8B2EAE9B4 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				AD2916BFF69E3FB4EFED06B4 /* ScreenshotHarness.swift */,
+			);
+			path = Debug;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -392,6 +403,7 @@
 				61B50F692475368B3CE4B3A8 /* PurchaseManager.swift in Sources */,
 				53B101D93397080669628DDE /* QuotaManager.swift in Sources */,
 				06A6A5A9731F2042A70BD368 /* RigView.swift in Sources */,
+				9633E9ACA70072A4F9425D8F /* ScreenshotHarness.swift in Sources */,
 				4B9F8B37CE0FABB431EE61DF /* SettingsView.swift in Sources */,
 				7691B9B8DA676294DD821F93 /* ShareCardRenderer.swift in Sources */,
 				4719720AF1DB1BBA36F5AC04 /* SwiftDataModels.swift in Sources */,
@@ -514,7 +526,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = JP4TN5PTS3;
 				ENABLE_NS_ASSERTIONS = NO;
@@ -600,7 +612,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = JP4TN5PTS3;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;

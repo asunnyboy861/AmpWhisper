@@ -22,6 +22,8 @@ struct PaywallView: View {
                     autoRenewalDisclosure
                 }
                 .padding()
+                .frame(maxWidth: 620)
+                .frame(maxWidth: .infinity)
             }
             .background(Color.tolex)
             .navigationTitle("AmpWhisper Pro")
@@ -64,27 +66,76 @@ struct PaywallView: View {
 
     private var tierCards: some View {
         VStack(spacing: 12) {
-            if purchaseManager.products.isEmpty {
-                if purchaseManager.isLoading {
-                    ProgressView()
-                        .tint(.amber)
-                } else {
-                    Text("Purchases are unavailable right now. Please try again later.")
-                        .font(.caption)
-                        .foregroundStyle(.secondary)
-                }
+            #if DEBUG
+            if ScreenshotScenario.current != nil {
+                tierCard(name: "AmpWhisper Pro Annual", price: "US$49.99", badge: "Best Value · 7-day free trial", highlight: true,
+                         detail: "Unlimited ToneMatch, GearSnap model recognition, A/B preview, scene tiers, full Whisper Notes.")
+                tierCard(name: "AmpWhisper Pro Monthly", price: "US$9.99", badge: "Flexible monthly", highlight: false,
+                         detail: "All Pro features, billed monthly. Cancel anytime.")
+                tierCard(name: "AmpWhisper BYO Lifetime", price: "US$39.99", badge: "Bring your own API key", highlight: false,
+                         detail: "AI runs on your own provider key (GLM, OpenAI, Claude, Gemini, DeepSeek, or custom). No shared cloud quota.")
+            } else {
+                liveTierCards
             }
-            if let yearly = purchaseManager.yearlyProduct {
-                tierCard(product: yearly, badge: "Best Value · 7-day free trial", highlight: true)
-            }
-            if let monthly = purchaseManager.monthlyProduct {
-                tierCard(product: monthly, badge: "Flexible monthly", highlight: false)
-            }
-            if let lifetime = purchaseManager.lifetimeProduct {
-                tierCard(product: lifetime, badge: "Bring your own API key", highlight: false)
-            }
+            #else
+            liveTierCards
+            #endif
         }
     }
+
+    @ViewBuilder
+    private var liveTierCards: some View {
+        if purchaseManager.products.isEmpty {
+            if purchaseManager.isLoading {
+                ProgressView()
+                    .tint(.amber)
+            } else {
+                Text("Purchases are unavailable right now. Please try again later.")
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
+            }
+        }
+        if let yearly = purchaseManager.yearlyProduct {
+            tierCard(product: yearly, badge: "Best Value · 7-day free trial", highlight: true)
+        }
+        if let monthly = purchaseManager.monthlyProduct {
+            tierCard(product: monthly, badge: "Flexible monthly", highlight: false)
+        }
+        if let lifetime = purchaseManager.lifetimeProduct {
+            tierCard(product: lifetime, badge: "Bring your own API key", highlight: false)
+        }
+    }
+
+    #if DEBUG
+    private func tierCard(name: String, price: String, badge: String, highlight: Bool, detail: String) -> some View {
+        VStack(alignment: .leading, spacing: 6) {
+            HStack {
+                Text(name)
+                    .font(.headline.weight(.bold))
+                    .foregroundStyle(Color.cream)
+                Spacer()
+                Text(price)
+                    .font(.title3.weight(.black))
+                    .foregroundStyle(Color.amber)
+            }
+            Text(badge)
+                .font(.caption.weight(.semibold))
+                .foregroundStyle(Color.cream.opacity(0.65))
+            Text(detail)
+                .font(.caption)
+                .foregroundStyle(Color.cream.opacity(0.55))
+            Text(name.contains("BYO") ? "Buy Once" : "Subscribe")
+                .font(.headline.weight(.bold))
+                .foregroundStyle(Color.tolex)
+                .frame(maxWidth: .infinity)
+                .padding(.vertical, 8)
+                .background(RoundedRectangle(cornerRadius: 10).fill(Color.amber))
+        }
+        .padding(16)
+        .background(RoundedRectangle(cornerRadius: 16).fill(Color.tolexCard))
+        .overlay(RoundedRectangle(cornerRadius: 16).stroke(highlight ? Color.amber : Color.white.opacity(0.15), lineWidth: highlight ? 2 : 1))
+    }
+    #endif
 
     private func tierCard(product: Product, badge: String, highlight: Bool) -> some View {
         VStack(alignment: .leading, spacing: 6) {
